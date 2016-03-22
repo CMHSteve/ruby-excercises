@@ -1,0 +1,8 @@
+class Dog
+   attr_accessor :name, :age  
+
+   def report_age
+      puts "#{@name} is #{@age} years old."
+   end
+
+end 
